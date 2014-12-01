@@ -1,0 +1,43 @@
+html
+{
+   font-family:"Trebuchet MS";
+   background-color:#eee;
+   margin-left:20px;
+}
+
+#container1
+{
+   margin-top:20px;
+   display: table;
+}
+
+.row
+{
+   display: table-row;
+}
+#TitleRow, h1
+{
+   color:grey;
+}
+
+.Spanish, .English, .Answer
+{
+   padding-right:70px;
+   display:table-cell;
+
+}
+
+span
+{
+   color:black;
+}
+
+.right
+{
+   color:blue;
+}
+
+.wrong
+{
+   color:red;
+}

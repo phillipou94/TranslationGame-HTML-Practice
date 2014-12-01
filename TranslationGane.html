@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title>Phillip's Translation Game</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+   <link type="text/css" href="translate_game.css" rel="stylesheet" />
+   <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+   <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+   <script type="text/javascript" src="dicts.json"></script>
+   <script type="text/javascript" src="TranslationGame.js"></script>
+
+   <link type="text/css" href="TranslationGameStylesheet.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+   <h1>Translate from <span>Spanish</span> to <span>English</span></h1>
+
+   <div id="container1">
+      <div class = "row" id= "TitleRow">
+         <div class="Spanish">
+            <h3>Spanish</h3>
+         </div>
+         <div class="English">
+            <h3>English</h3>
+         </div>
+         <div class="Answer">
+            <h3>Answer</h3>
+         </div>
+      </div>
+      <div class = "row" id = "FirstRow">
+         <div class = "Spanish">
+            <h2 id="RandomSpanishWord">espejo</h2>
+         </div>
+         <div class = "English">
+            <input id="guessInput" type="englishWord">
+         </div>
+         <div class = "Answer">
+            <button id="AnswerButton" type ="button" >See Answer</button>
+         </div>
+      </div>
+
+
+   </body>
+
+</html>
